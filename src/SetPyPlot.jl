@@ -3,6 +3,8 @@ module SetPyPlot
 # setting pyplot parameters to default values
 using PyPlot
 
+export setrcparam
+
 """
 setrcparam(;tick_font_size = 10,
 legend_font_size = 10,

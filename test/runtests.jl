@@ -2,6 +2,9 @@ using PyPlot, SetPyPlot
 using Base.Test
 
 # write your own tests here
+
+setrcparam()
+
 figure(1)
 
 x = collect(linspace(0, 2π))
