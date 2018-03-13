@@ -6,19 +6,19 @@ using PyPlot
 export setrcparam, plotyy
 
 """
-setrcparam(;tick_font_size = 10,
-legend_font_size = 10,
-axis_label_font_size = 10,
-fig_width = 8,
-fig_height = 6)
+setrcparam(;tick_font_size = 8,
+legend_font_size = 8,
+axis_label_font_size = 9,
+fig_width = 9,
+fig_height = 7)
 
 sets the font size parameters to my favorite default values
 """
-function setrcparam(;tick_font_size = 10,
-    legend_font_size = 10,
-    axis_label_font_size = 10,
-    fig_width = 8,
-    fig_height = 6)
+function setrcparam(;tick_font_size = 8,
+    legend_font_size = 8,
+    axis_label_font_size = 9,
+    fig_width = 9,
+    fig_height = 7)
 
     rc("xtick", labelsize=tick_font_size)
     rc("ytick", labelsize=tick_font_size)
